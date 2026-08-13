@@ -1,0 +1,52 @@
+.joker {
+    display: flex;
+    border: solid;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(4, 4, 63);
+}
+
+.perent {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(4, 4, 63);
+    color: skyblue;
+    border-color: skyblue;
+    border-bottom: solid;
+    border-right: solid;
+}
+
+img {
+    display: flex;
+    border-radius: 200%;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.day {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

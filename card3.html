@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            background-color: rgba(17, 17, 17, 0.048);
+            width: 350px;
+            padding: 25px;
+        }
+
+        .child-1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .child-1>img {
+            height: 30px;
+        }
+
+        p {
+            margin-top: 0;
+        }
+
+        .plan {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .features>div {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .amount {
+            font-weight: bold;
+            font-size: 40px;
+
+        }
+
+        .price {
+            margin: 10px 0;
+        }
+
+        .btn {
+            text-align: center;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .btn-container {
+            text-align: center;
+
+        }
+
+        h4 {
+            border-right: solid;
+            padding-right: 15px;
+        }
+
+        .mega-parent {
+            display: flex;
+            gap: 20px;
+            /* flex-wrap: wrap; */
+        }
+
+        @media (max-width: 480px) {
+            .mega-parent {
+                flex-direction: column;
+
+            }
+
+            .mega-parent>div {
+                background-color: black;
+                color: white;
+            }
+
+            .plan {
+                font-size: medium;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="mega-parent">
+
+        <div class="parent">
+            <div class="child-1">
+                <div class="plan">Basic Plan</div>
+                <img src="download-removebg-preview (2).png">
+            </div>
+            <small>Best For small teams and Freelancers</small>
+
+            <div class="features">
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+            </div>
+
+            <div class="price">
+                <span class="amount">$10</span>
+                <small class="period">per month</small>
+            </div>
+
+            <div class="btn-container"><button class="btn">Start Free Trial</button></div>
+        </div>
+
+        <div class="parent">
+            <div class="child-1">
+                <div class="plan">Basic Plan</div>
+                <img src="download-removebg-preview (2).png">
+            </div>
+            <small>Best For small teams and Freelancers</small>
+
+            <div class="features">
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+            </div>
+
+            <div class="price">
+                <span class="amount">$10</span>
+                <small class="period">per month</small>
+            </div>
+
+            <div class="btn-container"><button class="btn">Start Free Trial</button></div>
+        </div>
+
+        <div class="parent">
+            <div class="child-1">
+                <div class="plan">Basic Plan</div>
+                <img src="download-removebg-preview (2).png">
+            </div>
+            <small>Best For small teams and Freelancers</small>
+
+            <div class="features">
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+            </div>
+
+            <div class="price">
+                <span class="amount">$10</span>
+                <small class="period">per month</small>
+            </div>
+
+            <div class="btn-container"><button class="btn">Start Free Trial</button></div>
+        </div>
+
+        <div class="parent">
+            <div class="child-1">
+                <div class="plan">Basic Plan</div>
+                <img src="download-removebg-preview (2).png">
+            </div>
+            <small>Best For small teams and Freelancers</small>
+
+            <div class="features">
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+            </div>
+
+            <div class="price">
+                <span class="amount">$10</span>
+                <small class="period">per month</small>
+            </div>
+
+            <div class="btn-container"><button class="btn">Start Free Trial</button></div>
+        </div>
+
+        <div class="parent">
+            <div class="child-1">
+                <div class="plan">Basic Plan</div>
+                <img src="download-removebg-preview (2).png">
+            </div>
+            <small>Best For small teams and Freelancers</small>
+
+            <div class="features">
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+            </div>
+
+            <div class="price">
+                <span class="amount">$10</span>
+                <small class="period">per month</small>
+            </div>
+
+            <div class="btn-container"><button class="btn">Start Free Trial</button></div>
+        </div>
+
+        <div class="parent">
+            <div class="child-1">
+                <div class="plan">Basic Plan</div>
+                <img src="download-removebg-preview (2).png">
+            </div>
+            <small>Best For small teams and Freelancers</small>
+
+            <div class="features">
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+            </div>
+
+            <div class="price">
+                <span class="amount">$10</span>
+                <small class="period">per month</small>
+            </div>
+
+            <div class="btn-container"><button class="btn">Start Free Trial</button></div>
+        </div>
+
+        <div class="parent">
+            <div class="child-1">
+                <div class="plan">Basic Plan</div>
+                <img src="download-removebg-preview (2).png">
+            </div>
+            <small>Best For small teams and Freelancers</small>
+
+            <div class="features">
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+            </div>
+
+            <div class="price">
+                <span class="amount">$10</span>
+                <small class="period">per month</small>
+            </div>
+
+            <div class="btn-container"><button class="btn">Start Free Trial</button></div>
+        </div>
+
+        <div class="parent">
+            <div class="child-1">
+                <div class="plan">Basic Plan</div>
+                <img src="download-removebg-preview (2).png">
+            </div>
+            <small>Best For small teams and Freelancers</small>
+
+            <div class="features">
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+            </div>
+
+            <div class="price">
+                <span class="amount">$10</span>
+                <small class="period">per month</small>
+            </div>
+
+            <div class="btn-container"><button class="btn">Start Free Trial</button></div>
+        </div>
+
+        <div class="parent">
+            <div class="child-1">
+                <div class="plan">Basic Plan</div>
+                <img src="download-removebg-preview (2).png">
+            </div>
+            <small>Best For small teams and Freelancers</small>
+
+            <div class="features">
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>✔</strong>
+                </div>
+                <hr>
+
+                <div>
+                    <h4>Basic Features</h4>
+                    <strong>❌</strong>
+                </div>
+                <hr>
+            </div>
+
+            <div class="price">
+                <span class="amount">$10</span>
+                <small class="period">per month</small>
+            </div>
+
+            <div class="btn-container"><button class="btn">Start Free Trial</button></div>
+        </div>
+    </div>
+</body>
+
+</html>

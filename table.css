@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.ngi {
+    color: white;
+    background-color: darkslategrey;
+
+}
+
+td,
+th {
+    border: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table_name {
+    padding: 10px;
+    font-size: 50px;
+}

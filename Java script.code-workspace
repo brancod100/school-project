@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Java script",
+			"path": "../Java script"
+		},
+		{
+			"name": "crocs",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "crocs"
+	}
+}
