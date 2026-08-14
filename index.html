@@ -4,21 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>best website for school
+    </title>
 </head>
 <link rel="stylesheet" href="/bar.css" />
 <style>
     nav {
         display: flex;
         justify-content: space-around;
-        background-color: rgb(136, 82, 82);
+        background-color: rgb(119, 26, 26);
         color: white;
         position: fixed;
         width: 100%;
-
+        flex-wrap: wrap;
+        top: 0;
     }
 
-
+    html {
+        scroll-behavior: smooth;
+    }
 
     /* .home {
         background-image: url(/m.png);
@@ -94,7 +98,7 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        align-items: cente;
+
     }
 
     .perent {
@@ -105,10 +109,10 @@
 
     }
 
-    body {
+    /* body {
         background-color: cornsilk;
 
-    }
+    } */
 
     .main {
         border-radius: 20px;
@@ -214,12 +218,74 @@
         font-weight: bold;
         margin: 10px;
     }
+
+    h1 {
+        text-align: center;
+    }
+
+    .parent {
+        display: grid;
+        gap: 15px;
+        grid-template-areas:
+            "up up header header header"
+            "sidebar content-1 content-1 content-3 content-3"
+            "sidebar content-2 content-2 content-3 content-3"
+            "down down footer footer footer"
+        ;
+        grid-template-rows: 100px 100px 100px 100px;
+        text-align: center;
+    }
+
+    .parent>section {
+        background-color: black;
+        gap: 15px;
+        color: aliceblue;
+    }
+
+    .section-0 {
+        grid-area: up;
+    }
+
+
+    .section-1 {
+        grid-area: header;
+    }
+
+    .section-2 {
+        grid-area: sidebar;
+    }
+
+    .section-3 {
+        grid-area: content-1;
+    }
+
+    .section-4 {
+        grid-area: content-2;
+    }
+
+    .section-5 {
+        grid-area: content-3;
+    }
+
+    .section-6 {
+        grid-area: footer;
+    }
+
+    .section-7 {
+        grid-area: down;
+    }
+
+    .side {
+        width: 100%;
+        height: 100%;
+
+    }
 </style>
 
 <body>
     <div>
         <nav>
-            <a href="#Home">
+            <a href="#home">
                 <h3>Home</h3>
             </a>
             <a href="#Services">
@@ -234,24 +300,28 @@
             <a href="#contact">
                 <h3>Contact</h3>
             </a>
+            <a href="#Galary">
+                <h3>Galary</h3>
+            </a>
         </nav>
         <section id="home">
 
-            <p class="home">Content Where does it come from?
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
-                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
-                Lorem
-                Ipsum passage, and going through the cites of the word in classical literature, discovered the
-                undoubtable
-                source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-                Extremes
-                of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
-                popular
-                during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a
-                line.
+            <p class="home">
+            <h1>P.C.H.S Bamenda</h1>Content Where does it come from?
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+            Lorem
+            Ipsum passage, and going through the cites of the word in classical literature, discovered the
+            undoubtable
+            source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+            Extremes
+            of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
+            popular
+            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a
+            line.
             </p>
-            <button>veiw</button><button>contact</button>
+            <a href="#Galary"><button>veiw</button></a><a href="#contact"><button>contact</button></a>
 
         </section>
         <section id="Services">
@@ -396,6 +466,34 @@
 
         </div>
     </section>
+    <section id="Galary">
+        <h3 class="Services">Galary</h3>
+    </section>
+    <div class="parent">
+        <section class="section-0"><img class="side" src="/download (3).png"></section>
+
+
+        <section class="section-1"><img class="side" src="/download (4).png" /></section>
+
+
+        <section class="section-2"><img class="side" src="/download (1).png" /></section>
+
+
+
+        <section class="section-3"><img class="side" src="/download (5).png" /></section>
+
+        <section class="section-4"><img class="side" src="/download (6).png" /></section>
+
+
+        <section class="section-5"><img class="side" src="/download (7).png" /></section>
+
+
+        <section class="section-6"><img class="side" src="/download (11).png" /></section>
+
+
+        <section class="section-7"><img class="side" src="/download (10).png"></section>
+
+    </div>
     <section id="contact">
         <h3 class="Services">Contact</h3>
         <form>
@@ -408,7 +506,7 @@
                 <input placeholder="Email" name="email" type="email" id="email" /><br />
                 <label for="password">password</label>
                 <input placeholder="password" id="password" type="password" name="password" /><br />
-                <button>summit</button>
+                <a href="https://www.brancodex.com/"><button>summit</button></a>
             </div>
 
         </form>
@@ -419,8 +517,8 @@
             <p>project</p>
             <p>Block</p>
             <p>Contact</p>
-            <p></p>
-            <p></p>
+            <p>Galary</p>
+            <p>veiw</p>
 
 
         </div>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .card-container {
+            width: 300px;
+            height: 450px;
+            perspective: 1000px;
+            box-shadow: 1px 1px 10px 3px rgba(185, 181, 181, 0.24);
+        }
+
+        .card-container:hover .card {
+            transform: rotatex(180deg);
+            transition: 2s;
+        }
+
+        .card {
+            transform-style: preserve-3d;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            backface-visibility: hidden;
+        }
+
+        .back-card {
+            transform: rotatex(180deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card-container">
+        <div class="card">
+
+            <div class="front-card card-face">
+                <h2>Hey There!</h2>
+                <h3>Pleas Hover to see me!</h3>
+            </div>
+
+            <div class="back-card card-face">
+                <img src="download (2).png">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
